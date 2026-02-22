@@ -1,0 +1,554 @@
+{
+    "Nekroz": {
+        "vitorias": 7,
+        "derrotas": 4
+    },
+    "Malefic": {
+        "vitorias": 0,
+        "derrotas": 3
+    },
+    "Naturia": {
+        "vitorias": 3,
+        "derrotas": 0
+    },
+    "X-Saber": {
+        "vitorias": 4,
+        "derrotas": 1
+    },
+    "Neo-Spacians": {
+        "vitorias": 4,
+        "derrotas": 7
+    },
+    "Rank Up": {
+        "vitorias": 2,
+        "derrotas": 5
+    },
+    "Dragon": {
+        "vitorias": 9,
+        "derrotas": 2
+    },
+    "Hieratic": {
+        "vitorias": 2,
+        "derrotas": 1
+    },
+    "Galaxy": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Utopia": {
+        "vitorias": 1,
+        "derrotas": 4
+    },
+    "Gimmick Puppet": {
+        "vitorias": 1,
+        "derrotas": 7
+    },
+    "Hero": {
+        "vitorias": 46,
+        "derrotas": 49
+    },
+    "Yang Zing": {
+        "vitorias": 5,
+        "derrotas": 14
+    },
+    "Machine": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Burn": {
+        "vitorias": 1,
+        "derrotas": 3
+    },
+    "Egyptian God": {
+        "vitorias": 0,
+        "derrotas": 3
+    },
+    "Yosenju": {
+        "vitorias": 23,
+        "derrotas": 8
+    },
+    "Satellarknight": {
+        "vitorias": 43,
+        "derrotas": 17
+    },
+    "Qliphort": {
+        "vitorias": 2,
+        "derrotas": 3
+    },
+    "Shaddoll": {
+        "vitorias": 32,
+        "derrotas": 17
+    },
+    "Infernoid": {
+        "vitorias": 11,
+        "derrotas": 3
+    },
+    "Monarch": {
+        "vitorias": 18,
+        "derrotas": 9
+    },
+    "Mermail": {
+        "vitorias": 14,
+        "derrotas": 7
+    },
+    "Sylvan": {
+        "vitorias": 2,
+        "derrotas": 2
+    },
+    "Noble Knight": {
+        "vitorias": 3,
+        "derrotas": 5
+    },
+    "Bujin": {
+        "vitorias": 2,
+        "derrotas": 2
+    },
+    "Trains": {
+        "vitorias": 13,
+        "derrotas": 14
+    },
+    "Plant": {
+        "vitorias": 7,
+        "derrotas": 6
+    },
+    "Star Seraph": {
+        "vitorias": 4,
+        "derrotas": 3
+    },
+    "Superheavy Samurai": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Dragunity": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Exodia": {
+        "vitorias": 2,
+        "derrotas": 11
+    },
+    "Fire Fist": {
+        "vitorias": 3,
+        "derrotas": 4
+    },
+    "Iron Chain": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "Sphinx": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Magnet Warrior": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Harpies": {
+        "vitorias": 22,
+        "derrotas": 13
+    },
+    "Chrysalis": {
+        "vitorias": 0,
+        "derrotas": 5
+    },
+    "Cloudian": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Vampire": {
+        "vitorias": 0,
+        "derrotas": 4
+    },
+    "Evilswarm": {
+        "vitorias": 8,
+        "derrotas": 9
+    },
+    "Lightsworn": {
+        "vitorias": 16,
+        "derrotas": 17
+    },
+    "Madolche": {
+        "vitorias": 10,
+        "derrotas": 6
+    },
+    "Koaki Meru": {
+        "vitorias": 1,
+        "derrotas": 5
+    },
+    "Heraldic": {
+        "vitorias": 1,
+        "derrotas": 3
+    },
+    "Six Samurai": {
+        "vitorias": 10,
+        "derrotas": 3
+    },
+    "Artifacts": {
+        "vitorias": 8,
+        "derrotas": 6
+    },
+    "Battling Boxer": {
+        "vitorias": 2,
+        "derrotas": 2
+    },
+    "Wind-Up": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Cyber Dragon": {
+        "vitorias": 1,
+        "derrotas": 5
+    },
+    "Fire King": {
+        "vitorias": 2,
+        "derrotas": 3
+    },
+    "Dark World": {
+        "vitorias": 2,
+        "derrotas": 3
+    },
+    "Blackwing": {
+        "vitorias": 3,
+        "derrotas": 2
+    },
+    "Chain Burn": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Traptrix": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Batteryman": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Psychics": {
+        "vitorias": 1,
+        "derrotas": 3
+    },
+    "Fabled": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Geargia": {
+        "vitorias": 5,
+        "derrotas": 3
+    },
+    "Baby Raccoon": {
+        "vitorias": 6,
+        "derrotas": 10
+    },
+    "Ghostrick": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Ritual Beast": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Spellbooks": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Agents": {
+        "vitorias": 1,
+        "derrotas": 4
+    },
+    "Symphonic Warriors": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Clown Control": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Laval": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Ninjas": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Synchron": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Gravekeeper": {
+        "vitorias": 1,
+        "derrotas": 3
+    },
+    "Gen Knight": {
+        "vitorias": 4,
+        "derrotas": 1
+    },
+    "Penguins": {
+        "vitorias": 2,
+        "derrotas": 1
+    },
+    "Adaption": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Constellar": {
+        "vitorias": 4,
+        "derrotas": 3
+    },
+    "Photon": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Anti-Meta": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Hat": {
+        "vitorias": 3,
+        "derrotas": 5
+    },
+    "Gadget": {
+        "vitorias": 2,
+        "derrotas": 1
+    },
+    "Aliens": {
+        "vitorias": 10,
+        "derrotas": 7
+    },
+    "Chronalomy": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Blue-Eyes": {
+        "vitorias": 0,
+        "derrotas": 3
+    },
+    "Gogogo": {
+        "vitorias": 2,
+        "derrotas": 1
+    },
+    "Zombie": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Vylon": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "Gusto": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "Time Lord": {
+        "vitorias": 6,
+        "derrotas": 1
+    },
+    "Ojamas": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Skull Servants": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Guardian": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Lightsworn Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Monarch Extra Deck Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Roulette Duel Constellar Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Baby Raccoon Deck CGV0.YGR": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Chaos Dragons": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Tethys Spam Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Hieratic Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Fire King Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Gagaga Dododo Deck CGV0.YGR": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "Roulette Duel Shaddoll Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Lightsworn Chaos Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Stellarknight Deck CGV0": {
+        "vitorias": 2,
+        "derrotas": 1
+    },
+    "Roulette Duel Yosenju Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Roulette Duel Star Seraph Deck CGV0": {
+        "vitorias": 2,
+        "derrotas": 0
+    },
+    "Roulette Duel Harpie Artifact Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Heraldic Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 2
+    },
+    "Roulette Duel Bujin Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Qliphort Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Ritual Beast Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel The Agent Artifact Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Karakuri Deck CGV0": {
+        "vitorias": 2,
+        "derrotas": 0
+    },
+    "Roulette Duel Sylvan XYZ Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "TFS": {
+        "vitorias": 0,
+        "derrotas": 4
+    },
+    "1x1": {
+        "vitorias": 0,
+        "derrotas": 5
+    },
+    "ROULETTE": {
+        "vitorias": 0,
+        "derrotas": 3
+    },
+    "NORMAL": {
+        "vitorias": 0,
+        "derrotas": 2
+    },
+    "simples": {
+        "vitorias": 0,
+        "derrotas": 3
+    },
+    "TF1": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Fluffal Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Dark World Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "ft2semderrota": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Stellarknight Artifact Deck CGV1": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Gagaga Gogogo Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel LV 2 Spam Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Heroic Challenger Deck CGV0.YGR": {
+        "vitorias": 2,
+        "derrotas": 0
+    },
+    "Roulette Duel Mermail Atlantean Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Lightsworn Ruler Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel T.G Psychic Deck CGV0.YGR": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Utopia OTK Deck CGV0.YGR": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Quasar Synchron Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 1
+    },
+    "Roulette Duel Norleras Dark CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Perfect Circle Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Ally of Justice": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Geargia Deck CGV0": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Roulette Duel Gishki Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Mecha Phantom Beast": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Roulette Duel Sylvan Synchro Deck CGV0": {
+        "vitorias": 0,
+        "derrotas": 1
+    },
+    "Norleras": {
+        "vitorias": 1,
+        "derrotas": 0
+    },
+    "Shark": {
+        "vitorias": 0,
+        "derrotas": 1
+    }
+}
