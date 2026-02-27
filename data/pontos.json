@@ -1,17 +1,17 @@
 {
   "814944607150407700": {
     "pontos": 18,
-    "partidas": 5,
-    "recentementeAtualizado": "roulette"
+    "partidas": 7,
+    "recentementeAtualizado": false
   },
   "1165090155946848356": {
-    "pontos": 1,
-    "partidas": 5,
+    "pontos": 0,
+    "partidas": 6,
     "recentementeAtualizado": false
   },
   "590994963777454091": {
-    "pontos": 27,
-    "partidas": 15,
+    "pontos": 30,
+    "partidas": 22,
     "recentementeAtualizado": "normal"
   },
   "1035383456483520552": {
@@ -26,7 +26,7 @@
   },
   "1066764688525889620": {
     "pontos": 0,
-    "partidas": 1,
+    "partidas": 2,
     "recentementeAtualizado": false
   },
   "703764974706753657": {
@@ -45,9 +45,9 @@
     "recentementeAtualizado": false
   },
   "1101571172681920554": {
-    "pontos": 4,
-    "partidas": 1,
-    "recentementeAtualizado": "roulette"
+    "pontos": 5,
+    "partidas": 4,
+    "recentementeAtualizado": false
   },
   "922126446275743774": {
     "pontos": 1,
@@ -55,8 +55,13 @@
     "recentementeAtualizado": "roulette"
   },
   "408333379583475714": {
-    "pontos": 5,
-    "partidas": 2,
-    "recentementeAtualizado": "roulette"
+    "pontos": 7,
+    "partidas": 6,
+    "recentementeAtualizado": false
+  },
+  "297866690312798208": {
+    "pontos": 0,
+    "partidas": 1,
+    "recentementeAtualizado": "normal"
   }
 }
