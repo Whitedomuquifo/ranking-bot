@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ranking</title>
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;padding:16px;background:#fff;color:#111;}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:1100px;margin:0 auto;}
+    @media (max-width:800px){.grid{grid-template-columns:1fr;}}
+    .card{border:1px solid #ddd;border-radius:14px;padding:14px;background:#fff;}
+    .box{overflow:auto;}
+    table{width:100%;border-collapse:collapse;min-width:520px;}
+    th,td{padding:10px 12px;border-bottom:1px solid #eee;text-align:left;vertical-align:middle;}
+    th{position:sticky;top:0;background:#fff;z-index:1;}
+    .user{display:flex;align-items:center;gap:10px;}
+    .user img{width:40px;height:40px;border-radius:999px;object-fit:cover;flex:0 0 auto;}
+    .muted{opacity:.75;font-size:.9em;}
+    .medal{font-size:1.1em;}
+  </style>
+</head>
+<body>
+  <div class="grid">
+    <section class="card">
+      <h2>Arc-V Tag Force Special (Top 10)</h2>
+      <div id="rank-arcv" class="box">Carregando...</div>
+    </section>
+
+    <section class="card">
+      <h2>GX Tag Force 1 (Top 10)</h2>
+      <div id="rank-tf1" class="box">Carregando...</div>
+    </section>
+  </div>
+
+  <script>
+    const DATA_URL = "https://raw.githubusercontent.com/Whitedomuquifo/ranking-bot/main/data/ranking_public.json";
+    const TOP_N = 10;
+
+    function esc(s){
+      return String(s).replace(/[&<>"']/g, m => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+      }[m]));
+    }
+
+    function medal(i){
+      if(i===0) return "🥇";
+      if(i===1) return "🥈";
+      if(i===2) return "🥉";
+      return "#" + (i+1);
+    }
+
+    function render(el, items){
+      if(!el) return;
+      if(!Array.isArray(items) || !items.length){
+        el.innerHTML = "<span class='muted'>Sem dados.</span>";
+        return;
+      }
+
+      const top = items
+        .slice()
+        .sort((a,b) => Number(b.points||0) - Number(a.points||0))
+        .slice(0, TOP_N);
+
+      const rows = top.map((u,i) => {
+        const id = String(u.id || "");
+        const name = u.name ? String(u.name) : ("ID: " + id);
+        const avatar = u.avatar_url ? String(u.avatar_url) : "https://cdn.discordapp.com/embed/avatars/0.png";
+        const pts = Number(u.points || 0);
+
+        return `
+          <tr>
+            <td><span class="medal">${medal(i)}</span></td>
+            <td>
+              <div class="user">
+                <img src="${avatar}" alt="avatar" loading="lazy" referrerpolicy="no-referrer">
+                <div>
+                  <div>${esc(name)}</div>
+                  <div class="muted">${esc(id)}</div>
+                </div>
+              </div>
+            </td>
+            <td>${pts}</td>
+          </tr>
+        `;
+      }).join("");
+
+      el.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Posição</th>
+              <th>Jogador</th>
+              <th>Pontos</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      `;
+    }
+
+    (async () => {
+      const arcvEl = document.getElementById("rank-arcv");
+      const tf1El = document.getElementById("rank-tf1");
+
+      try{
+        const res = await fetch(DATA_URL + "?v=" + Date.now(), { cache:"no-store" });
+        if(!res.ok) throw new Error("Falha ao carregar JSON (" + res.status + ")");
+        const data = await res.json();
+
+        render(arcvEl, data.arcv || []);
+        render(tf1El, data.tf1 || []);
+      }catch(e){
+        const msg = "<span class='muted'>Erro: " + esc(e.message) + "</span>";
+        if(arcvEl) arcvEl.innerHTML = msg;
+        if(tf1El) tf1El.innerHTML = msg;
+      }
+    })();
+  </script>
+</body>
+</html>
