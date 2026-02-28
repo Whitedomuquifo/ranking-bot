@@ -28,5 +28,41 @@
     "type": "raw_line",
     "stream": "stdout",
     "raw": "Listening for Connections on TCP Port 27312."
+  },
+  {
+    "time": "2026-02-28T08:59:32.474Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "New Connection from 10.147.20.131."
+  },
+  {
+    "time": "2026-02-28T08:59:32.509Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) started playing NPJH00142."
+  },
+  {
+    "time": "2026-02-28T08:59:32.521Z",
+    "type": "game_detected",
+    "user": "white  started playing",
+    "game_id": "NPJH00142",
+    "game_name": "Yu-Gi-Oh! ARC-V Tag Force Special",
+    "group": "",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) started playing NPJH00142."
+  },
+  {
+    "time": "2026-02-28T08:59:32.548Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) joined NPJH00142 group YuGiTF6."
+  },
+  {
+    "time": "2026-02-28T08:59:32.561Z",
+    "type": "joined_group",
+    "user": "white  joined",
+    "game_id": "NPJH00142",
+    "game_name": "Yu-Gi-Oh! ARC-V Tag Force Special",
+    "group": "YuGiTF6",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) joined NPJH00142 group YuGiTF6."
   }
 ]
