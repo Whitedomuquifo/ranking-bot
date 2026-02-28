@@ -80,13 +80,10 @@
           esc(ev.group || "Sem nome") +
           "</strong> em <strong>" + esc(ev.game_name || "Jogo desconhecido") + "</strong>";
       } else if (ev.type === "joined_group") {
-        text =
-          "<strong>" + esc(ev.user) + "</strong> entrou no online de <strong>" +
-          esc(ev.game_name || "Jogo desconhecido") + "</strong>";
-
-        if (ev.group) {
-          text += " e entrou na sala <strong>" + esc(ev.group) + "</strong>";
-        }
+  text =
+    "<strong>" + esc(ev.user) + "</strong> entrou no online de <strong>" +
+    esc(ev.game_name || "Jogo desconhecido") + "</strong>";
+}
       } else if (ev.type === "joined_online") {
         text =
           "<strong>" + esc(ev.user) + "</strong> entrou no online de <strong>" +
