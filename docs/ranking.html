@@ -14,7 +14,6 @@
       --line:#eeeeee;
       --shadow:0 4px 14px rgba(0,0,0,.08);
     }
-
     @media (prefers-color-scheme: dark){
       :root{
         --bg:#0f1115;
@@ -26,9 +25,7 @@
         --shadow:0 6px 18px rgba(0,0,0,.35);
       }
     }
-
     *{box-sizing:border-box}
-
     body{
       font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
       margin:0;
@@ -36,12 +33,7 @@
       background:var(--bg);
       color:var(--text);
     }
-
-    .wrap{
-      max-width:1200px;
-      margin:0 auto;
-    }
-
+    .wrap{max-width:1200px;margin:0 auto;}
     .page-title{
       margin:0 0 18px;
       text-align:center;
@@ -49,17 +41,8 @@
       font-weight:800;
       letter-spacing:.3px;
     }
-
-    .grid{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:18px;
-    }
-
-    @media (max-width: 900px){
-      .grid{grid-template-columns:1fr;}
-    }
-
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+    @media (max-width: 900px){.grid{grid-template-columns:1fr;}}
     .card{
       background:var(--card);
       border:1px solid var(--border);
@@ -67,31 +50,19 @@
       padding:16px;
       box-shadow:var(--shadow);
     }
-
     .card h2{
       margin:0 0 14px;
       font-size:clamp(16px, 2vw, 22px);
       line-height:1.35;
     }
-
-    .box{
-      overflow:auto;
-      border-radius:12px;
-    }
-
-    table{
-      width:100%;
-      border-collapse:collapse;
-      min-width:520px;
-    }
-
+    .box{overflow:auto;border-radius:12px;}
+    table{width:100%;border-collapse:collapse;min-width:520px;}
     th,td{
       padding:10px 12px;
       border-bottom:1px solid var(--line);
       text-align:left;
       vertical-align:middle;
     }
-
     th{
       position:sticky;
       top:0;
@@ -99,13 +70,7 @@
       z-index:1;
       font-weight:700;
     }
-
-    .user{
-      display:flex;
-      align-items:center;
-      gap:10px;
-    }
-
+    .user{display:flex;align-items:center;gap:10px;}
     .user img{
       width:42px;
       height:42px;
@@ -114,11 +79,7 @@
       flex:0 0 auto;
       border:1px solid var(--border);
     }
-
-    .muted{
-      color:var(--muted);
-      font-size:.9em;
-    }
+    .muted{color:var(--muted);font-size:.9em;}
   </style>
 </head>
 <body>
