@@ -130,5 +130,35 @@
     "game_name": "Yu-Gi-Oh! ARC-V Tag Force Special",
     "group": "YuGiTF6",
     "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) joined NPJH00142 group YuGiTF6."
+  },
+  {
+    "time": "2026-02-28T09:02:04.443Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) left NPJH00142 group YuGiTF6."
+  },
+  {
+    "time": "2026-02-28T09:02:04.455Z",
+    "type": "game_detected",
+    "user": "white  left",
+    "game_id": "NPJH00142",
+    "game_name": "Yu-Gi-Oh! ARC-V Tag Force Special",
+    "group": "YuGiTF6",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) left NPJH00142 group YuGiTF6."
+  },
+  {
+    "time": "2026-02-28T09:02:04.769Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) joined NPJH00142 group YuGiTF6."
+  },
+  {
+    "time": "2026-02-28T09:02:04.781Z",
+    "type": "joined_group",
+    "user": "white  joined",
+    "game_id": "NPJH00142",
+    "game_name": "Yu-Gi-Oh! ARC-V Tag Force Special",
+    "group": "YuGiTF6",
+    "raw": "white (MAC: 64:F1:33:3B:6F:DE - IP: 10.147.20.131) joined NPJH00142 group YuGiTF6."
   }
 ]
