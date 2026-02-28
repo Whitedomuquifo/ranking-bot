@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tag Force Online</title>
+  <style>
+    :root{
+      --bg:#ffffff;
+      --card:#ffffff;
+      --text:#111111;
+      --muted:#666666;
+      --border:#dddddd;
+      --line:#eeeeee;
+      --shadow:0 4px 14px rgba(0,0,0,.08);
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0f1115;
+        --card:#181c23;
+        --text:#f2f4f8;
+        --muted:#a8b0bd;
+        --border:#2a313d;
+        --line:#2a313d;
+        --shadow:0 6px 18px rgba(0,0,0,.35);
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      padding:20px;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:var(--bg);
+      color:var(--text);
+    }
+    .wrap{max-width:1000px;margin:0 auto;}
+    .title{
+      margin:0 0 16px;
+      text-align:center;
+      font-size:clamp(22px, 3vw, 34px);
+      font-weight:800;
+    }
+    .list{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:16px;
+      overflow:hidden;
+      box-shadow:var(--shadow);
+    }
+    .item{
+      padding:14px 16px;
+      border-bottom:1px solid var(--line);
+    }
+    .item:last-child{border-bottom:0;}
+    .muted{color:var(--muted);font-size:.9em;margin-top:4px;}
+    .empty{padding:18px;}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1 class="title">Tag Force Online</h1>
+    <div id="feed" class="list"><div class="empty">Carregando...</div></div>
+  </div>
+
+  <script>
+    const DATA_URL = "https://raw.githubusercontent.com/Whitedomuquifo/ranking-bot/main/data/adhoc_events.json";
+
+    function esc(s){
+      return String(s).replace(/[&<>"']/g, m => ({
+        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"
+      }[m]));
+    }
+
+    function formatRow(ev){
+      let text = "";
+
+      if (ev.type === "created_group") {
+        text =
+          "<strong>" + esc(ev.user) + "</strong> criou uma sala <strong>" +
+          esc(ev.group || "Sem nome") +
+          "</strong> em <strong>" + esc(ev.game_name) + "</strong>";
+      } else {
+        text =
+          "<strong>" + esc(ev.user) + "</strong> entrou no online de <strong>" +
+          esc(ev.game_name) + "</strong>";
+
+        if (ev.group) {
+          text += " e entrou na sala <strong>" + esc(ev.group) + "</strong>";
+        }
+      }
+
+      return '<div class="item">' +
+        '<div>' + text + '</div>' +
+        '<div class="muted">' + esc(ev.time) + '</div>' +
+      '</div>';
+    }
+
+    (async () => {
+      const el = document.getElementById("feed");
+
+      try{
+        const res = await fetch(DATA_URL + "?v=" + Date.now(), { cache:"no-store" });
+        if(!res.ok) throw new Error("Falha ao carregar (" + res.status + ")");
+        const data = await res.json();
+
+        if(!Array.isArray(data) || !data.length){
+          el.innerHTML = '<div class="empty">Sem atividade no momento.</div>';
+          return;
+        }
+
+        const latest = data.slice().reverse().slice(0, 50);
+        el.innerHTML = latest.map(formatRow).join("");
+      }catch(e){
+        el.innerHTML = '<div class="empty">Erro: ' + esc(e.message) + '</div>';
+      }
+    })();
+  </script>
+</body>
+</html>
