@@ -232,5 +232,11 @@
     "type": "raw_line",
     "stream": "stdout",
     "raw": "Listening for Connections on TCP Port 27312."
+  },
+  {
+    "time": "2026-02-28T09:12:42.550Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "Listening for Connections on TCP Port 27312."
   }
 ]
