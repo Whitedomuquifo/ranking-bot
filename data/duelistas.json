@@ -1,6 +1,6 @@
 {
     "590994963777454091": {
-        "xp": 24,
+        "xp": 65,
         "level": 14,
         "deckMaisUsado": "Aliens",
         "decksUsados": {
@@ -14,7 +14,8 @@
             "Aliens": 4,
             "Madolche": 1,
             "Ally of Justice": 1,
-            "Mecha Phantom Beast": 1
+            "Mecha Phantom Beast": 1,
+            "Gagaga": 1
         },
         "conquistas": []
     },
@@ -38,7 +39,7 @@
         "conquistas": []
     },
     "1101571172681920554": {
-        "xp": 99,
+        "xp": 106,
         "level": 7,
         "deckMaisUsado": "Hat",
         "decksUsados": {
@@ -48,14 +49,14 @@
             "Lightsworn": 2,
             "Shaddoll": 3,
             "Baby Raccoon": 1,
-            "Yosenju": 4
+            "Yosenju": 5
         },
         "conquistas": [
             "Rei Dos Jogos Da Season 5"
         ]
     },
     "814944607150407700": {
-        "xp": 248,
+        "xp": 250,
         "level": 15,
         "deckMaisUsado": "Satellarknight",
         "decksUsados": {
@@ -72,14 +73,15 @@
             "Guardian": 1,
             "Constellar": 1,
             "Shaddoll": 2,
-            "Aliens": 1
+            "Aliens": 1,
+            "Batteryman": 1
         },
         "conquistas": [
             "Rei Dos Jogos Da Season 6"
         ]
     },
     "408333379583475714": {
-        "xp": 63,
+        "xp": 110,
         "level": 7,
         "deckMaisUsado": "Aliens",
         "decksUsados": {
@@ -91,9 +93,10 @@
             "Qliphort": 1,
             "Plant": 3,
             "Gogogo": 1,
-            "Aliens": 10,
+            "Aliens": 12,
             "Chaos Dragons": 1,
-            "Norleras": 1
+            "Norleras": 1,
+            "Evolsaur": 1
         },
         "conquistas": []
     },
@@ -119,7 +122,7 @@
         "conquistas": []
     },
     "1165090155946848356": {
-        "xp": 89,
+        "xp": 90,
         "level": 3,
         "deckMaisUsado": "Lightsworn",
         "decksUsados": {
@@ -127,7 +130,7 @@
             "Madolche": 1,
             "Lightsworn": 6,
             "Nekroz": 1,
-            "Shark": 1
+            "Shark": 2
         },
         "conquistas": []
     },
@@ -240,8 +243,8 @@
         "conquistas": []
     },
     "1362183649864450088": {
-        "xp": 93,
-        "level": 3,
+        "xp": 9,
+        "level": 4,
         "deckMaisUsado": "Time Lord",
         "decksUsados": {
             "Superheavy Samurai": 2,
@@ -267,8 +270,8 @@
         "conquistas": []
     },
     "295296193045463051": {
-        "xp": 90,
-        "level": 1,
+        "xp": 80,
+        "level": 2,
         "deckMaisUsado": "Desconhecido",
         "decksUsados": {},
         "conquistas": []
