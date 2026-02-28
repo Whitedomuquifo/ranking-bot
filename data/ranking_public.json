@@ -7,16 +7,16 @@
       "points": 30
     },
     {
-      "id": "814944607150407700",
-      "name": "Saturn Kaiser",
-      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/7de040f72a6e3876ba2278c38f9402fc.png?size=64",
-      "points": 18
-    },
-    {
       "id": "700153992382119946",
       "name": "Rafamixer",
       "avatar_url": "https://cdn.discordapp.com/avatars/700153992382119946/78eb4651e21734f1faf9c1d6c6100814.png?size=64",
       "points": 17
+    },
+    {
+      "id": "814944607150407700",
+      "name": "Saturn Kaiser",
+      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/7de040f72a6e3876ba2278c38f9402fc.png?size=64",
+      "points": 16
     },
     {
       "id": "408333379583475714",
@@ -34,6 +34,12 @@
       "id": "1410077402620760167",
       "name": "Rafael",
       "avatar_url": "https://cdn.discordapp.com/embed/avatars/4.png",
+      "points": 3
+    },
+    {
+      "id": "1362183649864450088",
+      "name": "Dan",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1362183649864450088/f30dc57b49d54cf648f13a4efa04ee78.png?size=64",
       "points": 3
     },
     {
@@ -64,12 +70,6 @@
       "id": "1066764688525889620",
       "name": "Botsemnome",
       "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
-      "points": 0
-    },
-    {
-      "id": "1362183649864450088",
-      "name": "Dan",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1362183649864450088/f30dc57b49d54cf648f13a4efa04ee78.png?size=64",
       "points": 0
     },
     {
