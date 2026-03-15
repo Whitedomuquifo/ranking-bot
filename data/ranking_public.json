@@ -1,75 +1,69 @@
 {
   "arcv": [
     {
+      "id": "1101571172681920554",
+      "name": "Satochi",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1101571172681920554/b7c04b7d08a1113a85cf843c5708d938.png?size=64",
+      "points": 22
+    },
+    {
       "id": "590994963777454091",
       "name": "Mr.White The Man Who Sold GBA",
       "avatar_url": "https://cdn.discordapp.com/avatars/590994963777454091/7335fa1c67f1b251b810df741f94f484.png?size=64",
-      "points": 30
-    },
-    {
-      "id": "700153992382119946",
-      "name": "Rafamixer",
-      "avatar_url": "https://cdn.discordapp.com/avatars/700153992382119946/78eb4651e21734f1faf9c1d6c6100814.png?size=64",
-      "points": 17
-    },
-    {
-      "id": "814944607150407700",
-      "name": "Saturn Kaiser",
-      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/7de040f72a6e3876ba2278c38f9402fc.png?size=64",
       "points": 16
     },
     {
       "id": "408333379583475714",
       "name": "Gabr1eLz",
       "avatar_url": "https://cdn.discordapp.com/avatars/408333379583475714/6768d485f95172d5efaf39115f292752.png?size=64",
-      "points": 7
+      "points": 15
     },
     {
-      "id": "1101571172681920554",
-      "name": "Satochi",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1101571172681920554/b7c04b7d08a1113a85cf843c5708d938.png?size=64",
-      "points": 5
-    },
-    {
-      "id": "1410077402620760167",
-      "name": "Rafael",
-      "avatar_url": "https://cdn.discordapp.com/embed/avatars/4.png",
-      "points": 3
+      "id": "814944607150407700",
+      "name": "𝙴𝚕 𝚂𝚊𝚝𝚞𝚛𝚗 𝙺𝚊𝚒𝚜𝚎𝚛",
+      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/6e5ee0f45629a94c846531cf4b93c330.png?size=64",
+      "points": 9
     },
     {
       "id": "1362183649864450088",
       "name": "Dan",
       "avatar_url": "https://cdn.discordapp.com/avatars/1362183649864450088/f30dc57b49d54cf648f13a4efa04ee78.png?size=64",
-      "points": 3
+      "points": 8
     },
     {
       "id": "1035383456483520552",
-      "name": "Skariow",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1035383456483520552/61f889b57b2897c56df94d2d2f8d1b52.png?size=64",
-      "points": 2
+      "name": "Skariow Azusa",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1035383456483520552/313cd9a8fb3a3f61066979b35ddb90aa.png?size=64",
+      "points": 8
     },
     {
-      "id": "703764974706753657",
-      "name": "Israel",
-      "avatar_url": "https://cdn.discordapp.com/avatars/703764974706753657/a902fd2598d7c0dc64b680055a3d3d06.png?size=64",
-      "points": 2
-    },
-    {
-      "id": "922126446275743774",
-      "name": "kris lit",
-      "avatar_url": "https://cdn.discordapp.com/avatars/922126446275743774/4c68273e9d1ce1d49abd9ad9fe2c2212.png?size=64",
-      "points": 1
+      "id": "1335351507788365926",
+      "name": "JosisLeide",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1335351507788365926/6adac415b248b58d9450f246c2bfbd80.png?size=64",
+      "points": 8
     },
     {
       "id": "1165090155946848356",
       "name": "João",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1165090155946848356/251330dacdbae36d02a80c3839e768dc.png?size=64",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1165090155946848356/5146835125578eb3e2eba42bdca2a216.png?size=64",
+      "points": 4
+    },
+    {
+      "id": "382728117204287489",
+      "name": "Flóik",
+      "avatar_url": "https://cdn.discordapp.com/avatars/382728117204287489/5770dd690cacdb18182dfb0cb8159788.png?size=64",
       "points": 0
     },
     {
-      "id": "1066764688525889620",
-      "name": "Botsemnome",
-      "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "id": "295296193045463051",
+      "name": "VitorTW",
+      "avatar_url": "https://cdn.discordapp.com/avatars/295296193045463051/6f6834d7cd265a69c146049064fe6153.png?size=64",
+      "points": 0
+    },
+    {
+      "id": "477883363017883648",
+      "name": "Pedro",
+      "avatar_url": "https://cdn.discordapp.com/avatars/477883363017883648/dae98b82e4f2fb3a0e380fcd04053e3a.png?size=64",
       "points": 0
     },
     {
@@ -83,55 +77,37 @@
     {
       "id": "382728117204287489",
       "name": "Flóik",
-      "avatar_url": "https://cdn.discordapp.com/avatars/382728117204287489/e444499ccfc134d29902c6f085c8d051.png?size=64",
-      "points": 61
+      "avatar_url": "https://cdn.discordapp.com/avatars/382728117204287489/5770dd690cacdb18182dfb0cb8159788.png?size=64",
+      "points": 13
     },
     {
       "id": "295296193045463051",
       "name": "VitorTW",
       "avatar_url": "https://cdn.discordapp.com/avatars/295296193045463051/6f6834d7cd265a69c146049064fe6153.png?size=64",
-      "points": 16
+      "points": 3
     },
     {
       "id": "408333379583475714",
       "name": "Gabr1eLz",
       "avatar_url": "https://cdn.discordapp.com/avatars/408333379583475714/6768d485f95172d5efaf39115f292752.png?size=64",
-      "points": 4
+      "points": 2
     },
     {
       "id": "814944607150407700",
-      "name": "Saturn Kaiser",
-      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/7de040f72a6e3876ba2278c38f9402fc.png?size=64",
-      "points": 2
+      "name": "𝙴𝚕 𝚂𝚊𝚝𝚞𝚛𝚗 𝙺𝚊𝚒𝚜𝚎𝚛",
+      "avatar_url": "https://cdn.discordapp.com/avatars/814944607150407700/6e5ee0f45629a94c846531cf4b93c330.png?size=64",
+      "points": 1
+    },
+    {
+      "id": "731953812276772994",
+      "name": "Juninho.SSS",
+      "avatar_url": "https://cdn.discordapp.com/avatars/731953812276772994/1cbe13ea026ce4a1828e2e8e00d1f2c8.png?size=64",
+      "points": 0
     },
     {
       "id": "1165090155946848356",
       "name": "João",
-      "avatar_url": "https://cdn.discordapp.com/avatars/1165090155946848356/251330dacdbae36d02a80c3839e768dc.png?size=64",
-      "points": 0
-    },
-    {
-      "id": "650122097170841619",
-      "name": "Yanstats",
-      "avatar_url": "https://cdn.discordapp.com/avatars/650122097170841619/fbc163fdf8aa8b125931f5e4f5e9bd92.png?size=64",
-      "points": 0
-    },
-    {
-      "id": "1410077402620760167",
-      "name": "Rafael",
-      "avatar_url": "https://cdn.discordapp.com/embed/avatars/4.png",
-      "points": 0
-    },
-    {
-      "id": "922126446275743774",
-      "name": "kris lit",
-      "avatar_url": "https://cdn.discordapp.com/avatars/922126446275743774/4c68273e9d1ce1d49abd9ad9fe2c2212.png?size=64",
-      "points": 0
-    },
-    {
-      "id": "1185253563136495692",
-      "name": "Jogador_de_Polystation",
-      "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+      "avatar_url": "https://cdn.discordapp.com/avatars/1165090155946848356/5146835125578eb3e2eba42bdca2a216.png?size=64",
       "points": 0
     }
   ]
