@@ -244,5 +244,11 @@
     "type": "raw_line",
     "stream": "stdout",
     "raw": "create_listen_socket: bind returned -1."
+  },
+  {
+    "time": "2026-03-15T21:11:20.988Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "create_listen_socket: bind returned -1."
   }
 ]
