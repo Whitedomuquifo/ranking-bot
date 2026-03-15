@@ -238,5 +238,11 @@
     "type": "raw_line",
     "stream": "stdout",
     "raw": "Listening for Connections on TCP Port 27312."
+  },
+  {
+    "time": "2026-03-15T21:07:40.842Z",
+    "type": "raw_line",
+    "stream": "stdout",
+    "raw": "create_listen_socket: bind returned -1."
   }
 ]
